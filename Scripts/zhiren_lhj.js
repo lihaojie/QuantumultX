@@ -29,10 +29,22 @@ const myRequest = {
     body: body
 };
 
+
+
+
+
 $task.fetch(myRequest).then(response => {
-    console.log(response.statusCode + "\n\n" + response.body);
+    // response.statusCode, response.headers, response.body
+    console.log(response.body);
+    $notify("Title 成功 ", "Subtitle 🐂🍺", response.body); // Success!
     $done();
 }, reason => {
-    console.log(reason.error);
+    // reason.error
+    $notify("失败❌Title", "❌出错啦～", reason.error); // Error!
     $done();
 });
+
+
+
+
+
