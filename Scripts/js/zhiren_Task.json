@@ -2,7 +2,7 @@
  "name": "我叫雷锋",
  "description": "知人Task脚本 by 小瘦子",
  "task": [
-    "0 51 8 * * 1-5 https://raw.githubusercontent.com/lihaojie/QuantumultX/master/Scripts/js/zhiren_lhj.js, tag=知人上班, img-url=https://raw.githubusercontent.com/lihaojie/QuantumultX/master/Scripts/img/appicon.png,enabled=true",
-    "0 32 18 * * 1-5 https://raw.githubusercontent.com/lihaojie/QuantumultX/master/Scripts/zhiren_lhj.js, tag=知人下班, img-url=https://raw.githubusercontent.com/lihaojie/QuantumultX/master/Scripts/img/appicon.png,enabled=true"
+    "0 51 8 * * 1-5 https://raw.githubusercontent.com/lihaojie/QuantumultX/master/Scripts/js/zhiren_lhj.js, tag=知人上班, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png,enabled=true",
+    "0 32 18 * * 1-5 https://raw.githubusercontent.com/lihaojie/QuantumultX/master/Scripts/zhiren_lhj.js, tag=知人下班, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10086.png,enabled=true"
  ]
 }
