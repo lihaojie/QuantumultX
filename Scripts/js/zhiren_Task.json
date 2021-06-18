@@ -1,0 +1,7 @@
+{
+ "name": "W37fhy_diy gallery",
+ "description": "自用除京东以外的Task脚本",
+ "task": [
+    "0 51 8 * * 1-5 https://raw.githubusercontent.com/lihaojie/QuantumultX/master/Scripts/js/zhiren_lhj.js, tag=知人, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png,enabled=true"
+ ]
+}

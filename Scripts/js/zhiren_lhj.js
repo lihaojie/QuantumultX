@@ -31,16 +31,14 @@ const myRequest = {
 
 
 
-
-
 $task.fetch(myRequest).then(response => {
     // response.statusCode, response.headers, response.body
     console.log(response.body);
-    $notify("Title 成功 ", "Subtitle 🐂🍺", response.body); // Success!
+    $notify("打卡成功 💪🏻", "知人 🐂🍺", response.body, Opts("weixin://")); // Success!
     $done();
 }, reason => {
     // reason.error
-    $notify("失败❌Title", "❌出错啦～", reason.error); // Error!
+    $notify("失败❌", "❌出错啦～", reason.error, Opts("weixin://")); // Error!
     $done();
 });
 
